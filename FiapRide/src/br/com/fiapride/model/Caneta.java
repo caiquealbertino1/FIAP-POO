@@ -30,4 +30,36 @@ public class Caneta {
             System.out.println("A caneta não tem tinta");
         }
     }
+
+    public String getCor() {
+        return this.cor; // Apenas devolve o valor, não altera nada.
+    }
+
+    private void setCor(String cor) {
+        this.cor = cor;
+    }
+
+    public String getMaterial() {
+        return this.material; // Apenas devolve o valor, não altera nada.
+    }
+
+    private void setMaterial(String material) {
+        this.material = material;
+    }
+
+    public boolean getTampa() {
+        return this.tampa; // Apenas devolve o valor, não altera nada.
+    }
+
+    private void setTampa(boolean tampa) {
+        this.tampa = tampa;
+    }
+
+    public boolean getTinta() {
+        return this.tinta; // Apenas devolve o valor, não altera nada.
+    }
+
+    private void setTinta(boolean tinta) {
+        this.tinta = tinta;
+    }
 }
